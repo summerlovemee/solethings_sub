@@ -1,0 +1,266 @@
+@charset "UTF=8";
+
+@font-face {
+    font-family: 'HancomMalangMalang-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2406-1@1.0/HancomMalangMalang-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LOTTERIACHAB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIACHAB.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+body {
+    color: #333;
+    line-height: 1;
+}
+
+.header {
+    border-bottom: 2px solid #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    font-family: 'LOTTERIACHAB';
+    font-size: 30px;
+}
+
+.logo a img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.header .left a {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+.header .right a {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.sale {
+    font-family: 'Pretendard-Regular';
+}
+.sale .item {
+    display: flex;
+    justify-content: center;
+}
+
+.sale .item img {
+    width: 1080px;
+    height: 1080px;
+    object-fit: cover;
+    margin-top: 100px;
+}
+
+.sale .price {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    line-height: 2;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 80px;
+}
+
+.option .must_option {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    border: 1px solid #333;
+    padding: 3px 20px;
+}
+
+.atleast p {
+margin-left:680px;
+margin-top: 30px;
+    color: #b6b1b1;
+}
+
+.sale_box {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    margin-top: 200px;
+    gap: 50px;
+}
+.sale_box li {
+    border-radius: 10px;
+}
+.sale_box li:first-child {
+    border: 1px solid #b6b1b1;
+    padding: 30px 50px;
+}
+.sale_box li:nth-child(2) {
+    border: 1px solid #b6b1b1; 
+    padding: 30px 50px;
+}
+.sale_box li:nth-child(3) {
+    background-color: #2244d7;
+    border: 1px solid #2244d7; 
+    padding: 30px 50px;
+    color: #fff;
+}
+
+.p_number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    margin-top: 70px;
+    font-size: 30px;
+    border-bottom: 5px solid #000;
+    width: 1500px;
+    margin: 30px auto;
+    line-height: 4;
+}
+.p_number strong:nth-child(2) {
+    color: #ff0000;
+}
+
+.kakaotalk {
+    width: 1500px;
+    border-bottom: 2px solid #b6b1b1;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+.kakao {
+    width:1500px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 170px;
+}
+.kakao .talk {
+   font-size: 30px;
+   font-weight: bold;
+   font-family: 'Pretendard-Regular';
+}
+.kakao .talk p {
+    margin-bottom: 20px;
+    margin-left: 12px;
+}
+.kakao .talk img {
+    width: 150px;
+    height: 50px;
+    object-fit: cover;
+}
+.kakao .purchase {
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    margin-bottom: 30px;
+    
+}
+.kakao .purchase img:nth-child(4) {
+    position: absolute;
+    top: -9px;
+    left: 1290px;
+    border-radius: 15px;
+} 
+
+.point {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 20px;
+    gap: 30px;
+    font-size: 24px;
+}
+.point p {
+    color: #dad8d8;
+}
+
+.house {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.notice {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.strap strong {
+   display: flex;
+   justify-content: center;
+   font-size:36px ;
+   font-family: 'HancomMalangMalang-Regular';
+   margin: 150px;
+   line-height: 1.7;
+}
+
+.main_pic {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main_pic strong {
+    line-height: 1.4;
+    margin: 150px;
+    font-size:30px ;
+    font-family: 'HancomMalangMalang-Regular';
+}
+.main_pic img:nth-child(4) {
+    margin-bottom: 300px;
+}
+
+.footer {
+    width: 1920px;
+    font-family: 'Pretendard-Regular';
+   padding-left: 30px;
+    border-top: 2px solid #333;
+    margin-top: 100px;
+}
+.footer .footer_logo a img {
+    width:309px ;
+    height: 35px;
+    object-fit: cover;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.footer .info {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.4;
+    margin-right: 100px;
+}
